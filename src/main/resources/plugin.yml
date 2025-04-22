@@ -1,0 +1,10 @@
+name: jk_trash_bin
+version: '${project.version}'
+main: jiekie.TrashBinPlugin
+api-version: '1.20'
+authors: [Jiekie]
+description: 쓰레기통 플러그인
+commands:
+  쓰레기통:
+    description: 쓰레기통 명령어
+    usage: /쓰레기통
