@@ -26,7 +26,7 @@ public class TrashBinCommand implements CommandExecutor {
         }
 
         Player player = (Player) sender;
-        Inventory inventory = Bukkit.createInventory(null, 18, GuiUtil.CHEST_NAME);
+        Inventory inventory = Bukkit.createInventory(null, 54, GuiUtil.CHEST_NAME);
         player.openInventory(inventory);
 
         return true;
