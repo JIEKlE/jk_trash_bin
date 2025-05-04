@@ -1,11 +1,10 @@
 package jiekie.util;
 
-import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 public class ChatUtil {
     public static String getWarnPrefix() {
-        return "[ " + ChatColor.YELLOW + "❗" + ChatColor.WHITE + " ] ";
+        return "\uA003 ";
     }
 
     public static void notPlayer(CommandSender sender) {
