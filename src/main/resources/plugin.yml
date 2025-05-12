@@ -1,6 +1,6 @@
 name: jk_trash_bin
 version: '${project.version}'
-main: jiekie.TrashBinPlugin
+main: jiekie.trashbin.TrashBinPlugin
 api-version: '1.20'
 authors: [Jiekie]
 description: 쓰레기통 플러그인

@@ -1,6 +1,6 @@
-package jiekie;
+package jiekie.trashbin;
 
-import jiekie.command.TrashBinCommand;
+import jiekie.trashbin.command.TrashBinCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class TrashBinPlugin extends JavaPlugin {

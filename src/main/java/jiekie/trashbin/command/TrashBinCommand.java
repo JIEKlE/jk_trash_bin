@@ -1,8 +1,8 @@
-package jiekie.command;
+package jiekie.trashbin.command;
 
-import jiekie.TrashBinPlugin;
-import jiekie.util.ChatUtil;
-import jiekie.util.GuiUtil;
+import jiekie.trashbin.TrashBinPlugin;
+import jiekie.trashbin.util.ChatUtil;
+import jiekie.trashbin.util.GuiUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

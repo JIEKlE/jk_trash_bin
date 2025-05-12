@@ -1,4 +1,4 @@
-package jiekie.util;
+package jiekie.trashbin.util;
 
 import org.bukkit.command.CommandSender;
 
