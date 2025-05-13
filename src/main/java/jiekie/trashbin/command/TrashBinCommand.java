@@ -1,8 +1,8 @@
 package jiekie.trashbin.command;
 
 import jiekie.trashbin.TrashBinPlugin;
+import jiekie.trashbin.model.TrashBinInventoryHolder;
 import jiekie.trashbin.util.ChatUtil;
-import jiekie.trashbin.util.GuiUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -26,7 +26,8 @@ public class TrashBinCommand implements CommandExecutor {
         }
 
         Player player = (Player) sender;
-        Inventory inventory = Bukkit.createInventory(null, 54, GuiUtil.CHEST_NAME);
+        TrashBinInventoryHolder holder = new TrashBinInventoryHolder("trash_bin");
+        Inventory inventory = Bukkit.createInventory(holder, 9, "");
         player.openInventory(inventory);
 
         return true;
